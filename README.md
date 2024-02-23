@@ -2,7 +2,7 @@
 
 Shy语言是一个开源的汇编语言项目，专为教学目的设计。它通过提供一个简化版的汇编语言，旨在帮助初学者轻松地掌握汇编语言的基本概念。项目包括一个编译器（[Shycc](https://github.com/Shyliuli/shycc)）和一个运行模拟器（[shyemu](https://github.com/Shyliuli/shyemu)），以支持用户编写和测试Shy语言程序。
 
-这里是Shy语言的简介，如果你需要了解更多（包含Shy语言的教学以及基础设定等），[请点这里]()
+这里是Shy语言的简介，如果你需要了解更多（包含Shy语言的教学以及基础设定等），[请点这里](https://github.com/Shyliuli/shy_language/blob/main/ShyLanguageGuide.md)
 
 ## 关于Shy语言
 
