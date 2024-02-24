@@ -21,6 +21,12 @@ g++ main.cpp -o shyemu
 ```
 
 > 目前，我正在学习如何有效使用Makefile，不能保证其当前的可用性。
+>
+> 在linux下可以用make了（需要g++)
+>
+> windows应该能用mingw-g++
+>
+> msvc应该能用，但是没测试....所以makefile里写死了使用g++，你可以手动编译
 
 ## 编译Shy语言程序
 
@@ -32,6 +38,8 @@ shycc /path/to/your/file/test.shy
 
 这将生成一个 `.sfs`文件（硬盘镜像，可以被视为可执行程序）。
 
+你可以使用代码仓库中的hello shy.shy进行测试
+
 ## 运行Shy语言程序
 
 显然Shy硬件目前不存在（创建文件夹ing）。因此，我们使用 `shyemu`来模拟Shy程序的运行环境：
@@ -41,7 +49,6 @@ shyemu /path/to/your/file/test.sfs
 ```
 
 这允许您启动并运行用Shy语言编写的程序，便于测试和调试。
-
 
 ## 许可证
 

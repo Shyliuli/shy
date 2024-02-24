@@ -1,0 +1,19 @@
+_datastart_
+0x0060 shy
+_dataend_
+_codestart_
+setn ax 0x00
+outnasc "h"
+outnasc "e"
+.label_l_start
+addn ax 0x01
+outnasc "l"
+smaequn ax 0x01
+jmpn .label_l_start
+outnasc "o"
+outnasc 0x20
+outaasc 0x0060 
+outaasc 0x0061 
+outaasc 0x0062 
+outn 0x7B
+_codeend_
