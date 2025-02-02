@@ -3,7 +3,7 @@
 #### 设计目标：
 
 Shy语言旨在实现一个简单、易学的汇编语言，帮助学习计算机原理的学生更好地了解汇编语言。其简洁性也适用于承担一些轻量级任务。
-(目前正在考虑基于Shy语言实现一个简易高级语言，见[这里](https://github.com/Shyliuli/shy_language/blob/main/Shy_C.md) )
+(目前正在考虑基于Shy语言实现一个简易高级语言，见[这里](https://github.com/Shyliuli/shy_language/blob/main/shy_C.md) )
 
 #### 主要应用场景：
 
